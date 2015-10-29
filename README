@@ -1,10 +1,9 @@
 
-README: Computer Science Large Practical
-s1107836
+README: Bus Network Modelling
 
-Program runs on DICE machines with a Python 2.6 compiler.
+Program runs with a Python 2.6 compiler.
 
-To run program: cd into CSLP_repo in terminal, then type:
+To run program: cd into bus-network-modelling in terminal, then type:
 			    python bus_model.py <test_file_path>
 
 To run a subset of the test files created to ensure proper breaking, instead of entering a file name, run: 
@@ -27,7 +26,7 @@ For experiments being run, only the stats will be shown and they will always be 
 
 Optimising parameters will only work if there is an experiment to run it on. The optimal parameters will be sent to the console.
 
-Extra credit: There is an option to vary the rate of new_passengers at different stops. Having the modifier 'new passengers' is still a requirement, but to change it at a specific stop, add a line with this template to your input file:
+There is an option to vary the rate of new_passengers at different stops. Having the modifier 'new passengers' is still a requirement, but to change it at a specific stop, add a line with this template to your input file:
 					enters <stop number> <new stop rate>
 				ex. enters 1 2.0
 Any stops with this will have this rate as their new rate of passengers. This has nothing to do with the rate that the new_passenger event is triggered. Instead, it affects the distribution of which stop passengers enter the simulation at. The default value is 1. To decrease the rate at which passengers enter at a certain stop, put a value less than 1. To increase it, put a value greater than 1. So, for example, a stop with value 0.5 would be selected only half as often as any one other stop with value 1.0.
