@@ -1,0 +1,14 @@
+# Should break with error about non-float value for road rate.
+
+route 1 stops 1 2 3 buses 3 capacity 40
+
+road 1 2 b
+road 2 3 0.7
+road 3 1 0.5
+
+board 1.0
+disembarks 2.0
+departs 2.0
+new passengers 2.0
+stop time 20.0
+ignore warnings

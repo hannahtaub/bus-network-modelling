@@ -1,0 +1,14 @@
+# Should break with error about no stops for route 1.
+
+route 1 stops  buses 3 capacity 50
+
+road 1 2 0.6
+road 2 3 0.7
+road 3 1 0.5
+
+board 1.0
+disembarks 2.0
+departs 2.0
+new passengers 2.0
+stop time 20.0
+ignore warnings

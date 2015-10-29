@@ -1,0 +1,16 @@
+# Basic scenario.
+
+route 1 stops 1 2 3 buses 4 capacity 50
+route 2 stops 2 3 4 buses 3 capacity 60
+
+road 1 2 0.3
+road 2 3 0.4
+road 3 1 0.5
+road 3 4 0.4
+road 4 2 0.3
+
+board 1.0
+disembarks 3.0
+departs 3.0
+new passengers 8.0
+stop time 100.0
