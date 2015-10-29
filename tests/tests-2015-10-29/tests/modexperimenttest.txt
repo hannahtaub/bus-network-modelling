@@ -1,0 +1,14 @@
+# Test for experimentation on both a road rate and a mod.
+
+route 1 stops 1 2 3 buses 3 capacity 30
+
+road 1 2 experiment 1.0 0.6
+road 2 3 0.7
+road 3 1 0.5
+
+board 1.0
+disembarks 2.0
+departs 2.0
+new passengers experiment 2.0 4.0 9.0
+stop time 40.0
+ignore warnings
